@@ -3,8 +3,8 @@ package com.elcomensal.serviciorest.entidades;
 import javax.persistence.*;
 
 @Entity
-@Table(name="Usuario")
-public class Usuario {
+@Table(name="Cliente")
+public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
